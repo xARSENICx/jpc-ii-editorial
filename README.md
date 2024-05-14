@@ -1,2 +1,2 @@
-# jpc-ii-editorial
-This is the editorial for AASF JPC-II.
+# JPC-II Editorial
+This is the official editorial for AASF JPC-II.
