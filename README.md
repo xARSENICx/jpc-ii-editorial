@@ -6,7 +6,7 @@ This is the official editorial for AASF JPC-II.
 ### Problem Testers: [Pranav Jarande](https://www.linkedin.com/in/pranav-jarande-997a22257/), [Aditya Bharadwaj](https://www.linkedin.com/in/aditya-bharadwaj-134847157/)
 <details>
 <summary>Quick shoutout to unofficial testers</summary>
-NonTechNerd, Sohail, Hippie for their feedback! :heart:
+NonTechNerd69, Sohail, Hippie for their feedback! :heart:
 </details>
 
 ## 1. Aparecium!
