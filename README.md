@@ -1,5 +1,5 @@
 # JPC-II Editorial
-### This is the official editorial for AASF JPC-II.
+This is the official editorial for AASF JPC-II.
 
 ### Problem Author: [Ayush Sah](https://www.linkedin.com/in/ay-ew-sh/)
 
