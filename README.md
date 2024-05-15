@@ -1,7 +1,7 @@
 # JPC-II Editorial
 This is the official editorial for AASF JPC-II.
 
-### Prroblem Author: [Ayush Sah](https://www.linkedin.com/in/ay-ew-sh/)
+### Problem Author: [Ayush Sah](https://www.linkedin.com/in/ay-ew-sh/)
 
 ### Problem Testers: [Pranav Jarande](https://www.linkedin.com/in/pranav-jarande-997a22257/), [Aditya Bharadwaj](https://www.linkedin.com/in/aditya-bharadwaj-134847157/)
 <details>
