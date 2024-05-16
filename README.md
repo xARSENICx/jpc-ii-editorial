@@ -19,4 +19,4 @@ NonTechNerd69, Sohail, Hippie for their feedback! :heart:
 
 ## 5. YZY App Subscription
 
-## 6. 
+## 6. ICPC Team
