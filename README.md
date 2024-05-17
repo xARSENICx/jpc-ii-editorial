@@ -17,9 +17,17 @@ NonTechNerd69, Sohail, Hippie for their valuable feedback! :heart:
 </details>
 <details>
 <summary>Hint</summary>
+
+```
+Do what the problem says.
+```
 </details>
 <details>
 <summary>Tutorial</summary>
+
+  Iterate over the whole string and store the string of length 2 by concatenating the current and the next character in a hash set. For every $i$, reverse this string and check whether it already exists in the hash set or not. If it does, return True. Otherwise, return False.
+
+**Time Complexity**: O(N)
 </details>
 <details>
 <summary>Problem Rating (Equivalent to Codeforces)</summary>
@@ -41,9 +49,17 @@ NonTechNerd69, Sohail, Hippie for their valuable feedback! :heart:
 </details>
 <details>
 <summary>Hint</summary>
+
+  When does Kafka have advantage over Camus?
 </details>
 <details>
 <summary>Tutorial</summary>
+
+  Let us assume that, the total number of common words known to both are $k$. Now, to play optimally each of them should first exhaust the common list of words (Why?). So, if we can find out when Kafka has advantage over Camus then we can determine who the winner would be. It is obvious that the one who knows more words wins. So, the situation of advantage arises when both of them know the exact same number of words.
+
+For this case, it is easy to observe that Kafka has an advantage over Camus when the count of common words is odd. This is because, for each common word that Kafka uses, Camus loses that word. Eventually, Kafka ending up using the last common word always. This would mean that Kafka would have **effectively** 1 more word than Camus and would thus win as $n+1 > m$, when $n = m$.
+
+**Time Complexity:** $O((n+m)\log{|String|})$
 </details>
 <details>
 <summary>Problem Rating (Equivalent to Codeforces)</summary>
@@ -65,12 +81,26 @@ NonTechNerd69, Sohail, Hippie for their valuable feedback! :heart:
 </details>
 <details>
 <summary>Hint</summary>
+
+What if we maintained an array of unoccupied seats and simulated the whole process?
 </details>
 <details>
 <summary>Tutorial #1</summary>
+
+This is a straight forward problem of simulation. One such way to solve the problem is described here. Maintain an array of size n where each seat is initially unoccupied, denoted by -1. Iterate over this array and update the seat with the value 0 as they get occupied. Now, iterate over this updated array and from the very first seat which is unoccupied, increment the seat number starting from 1. Finally, do a linear search over this array to find the original sseat number. 
+
+Since, the constraints aren't very strict, a solution till $O(N\log{N}$ or $O(M\log{M})$ would pass as well. Although a brute implementation worse than this would give you TLE.
+
+**Time Complexity:** $O(N)$
 </details>
 <details>
 <summary>Tutorial #2</summary>
+
+  This problem can be solved with the help of an ordered set from the [policy based data structure](https://codeforces.com/blog/entry/11080) class which gives all the basic operations that an STL ordered set gives, alongwith two functions `find_by_order()` and `order_of_key()`. Although, using this data structure here would result in a worse time complexity than [author's aolution](3.%20Rivendell%20Recovery/author's_solution.cpp), it is still a very powerful data structure. It helps use solve offline query based problems for example, in a very simple way. The code can be found in [author's alternative aolution](3.%20Rivendell%20Recovery/author's_alternative_solution.cpp).
+
+Here is the extended version of the problem to try this: 
+
+**Time Complexity:** $O(N\log{N}+log(abs(N-M)$
 </details>
 <details>
 <summary>Problem Rating (Equivalent to Codeforces)</summary>
