@@ -39,7 +39,7 @@ Do what the problem says.
 
 [Author's Solution](1.%20Aparecium/author's_solution.cpp)
 
-[Tester1's Solution]()
+[Tester1's Solution](1.%20Aparecium/tester1's_solution.cpp)
 
 [Tester2's Solution]()
 
@@ -71,7 +71,7 @@ For this case, it is easy to observe that Kafka has an advantage over Camus when
 
 [Author's Solution](2.%20One%20Must%20Imagine%20Sisyphus%20Happy/author's_solution.cpp)
 
-[Tester1's Solution]()
+[Tester1's Solution](2.%20One%20Must%20Imagine%20Sisyphus%20Happy/tester1's_solution.cpp)
 
 [Tester2's Solution]()
 
@@ -114,7 +114,7 @@ Here is the extended version of the problem to try this method: https://www.thej
 
 [Author's Alternative Solution](3.%20Rivendell%20Recovery/author's_alternative_solution.cpp)
 
-[Tester1's Solution]()
+[Tester1's Solution](3.%20Rivendell%20Recovery/tester1's_solution.cpp)
 
 [Tester2's Solution]()
 
@@ -154,7 +154,7 @@ Now, to generate a valid derangement we can take help of our result above. If we
 
 [Author's Solution](4.%20Saladin's%20Sword%20Swap%20Conundrum/author's_solution.cpp)
 
-[Tester1's Solution]()
+[Tester1's Solution](4.%20Saladin's%20Sword%20Swap%20Conundrum/tester1's_solution.cpp)
 
 [Tester2's Solution]()
 
@@ -178,7 +178,7 @@ Now, to generate a valid derangement we can take help of our result above. If we
 
 [Author's Solution](5.%20YZY%20App%20Subscription/author's_solution.cpp)
 
-[Tester1's Solution]()
+[Tester1's Solution](5.%20YZY%20App%20Subscription/tester1's_solution.cpp)
 
 [Tester2's Solution]()
 
