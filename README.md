@@ -132,7 +132,7 @@ Here is the extended version of the problem to try this method: https://www.thej
 <details>
 <summary>Tutorial</summary>
 
-Derangement can be defined as an arrangement in which no element is in its original position. Thus, it is easy to figure out that in this problem, if we can make a valid derangement of the given sequence, then Baldwin wins. But, doing it in a naive way would be computationally difficult. So, instead of embarking upon the journey to print this derangement let us first figure out if there is a way to determine whether Baldwin can even win or not. Upon inspection of few examples, we can make a key observation that if the count of any element in the sequence is more than $\left\lfloor\frac{N}{2}\right \rfloor$ then it is not possible to generate a derangement. Let's prove it:
+Derangement can be defined as an arrangement in which no element is in its original position. Thus, it is easy to figure out that in this problem, if we can make a valid derangement of the given sequence, then Baldwin wins. But, doing it in a naive way would be computationally difficult. So, instead of embarking upon the journey to print this derangement let us first figure out if there is a way to determine whether Baldwin can even win or not. Upon inspection of few examples, we can make a key observation that if the count of any element in the sequence is more than $\left\lfloor\frac{N}{2}\right \rfloor$, it is not possible to generate a derangement. Let's prove it:
 ``` 
 PROOF
 
@@ -142,7 +142,7 @@ Hence, by contradiction we prove our statement.
 ```
 Thus, Baldwin can only win if all elements occur less than $\left\lfloor\frac{N}{2}\right \rfloor$ times. 
 
-Now, to generate a valid derangement we can take help of a result of our result above. If we can have all the same coloured sheaths in a line, then we know that the colour appearing for the most number of times would also require most number of other remaining colours to fill their position. So, if we rotate this sorted sequence by an amount of $\left\lfloor\frac{N}{2}\right \rfloor$, then we can guarantee that no element of maximum occurence is in its original position. Thus as a result of the statement that we proved and this observation, we ensure that we get a valid derangement and none of the elements are in their original position.
+Now, to generate a valid derangement we can take help of our result above. If we can have all the same coloured sheaths in a line, then we know that the colour appearing for the most number of times would also require most number of other remaining colours to fill their position. So, if we rotate this sorted sequence by an amount of $\left\lfloor\frac{N}{2}\right \rfloor$, then we can guarantee that no element of maximum occurence is in its original position. Thus as a result of the statement that we proved and this observation, we ensure that we get a valid derangement and none of the elements are in their original position.
 
 **Time Complexity:** $O(N\log{N})$
 </details>
