@@ -87,7 +87,7 @@ What if we maintained an array of unoccupied seats and simulated the whole proce
 <details>
 <summary>Tutorial #1</summary>
 
-This is a straight forward problem of simulation. One such way to solve the problem is described here. Maintain an array of size n where each seat is initially unoccupied, denoted by -1. Iterate over this array and update the seat with the value 0 as they get occupied. Now, iterate over this updated array and from the very first seat which is unoccupied, increment the seat number starting from 1. Finally, do a linear search over this array to find the original sseat number. 
+This is a straight forward problem of simulation. One such way to solve the problem is described here. Maintain an array of size n where each seat is initially unoccupied, denoted by -1. Iterate over this array and update the seat with the value 0 as they get occupied. Now, iterate over this updated array and from the very first seat which is unoccupied, increment the seat number starting from 1. Finally, do a linear search over this array to find the original seat number. 
 
 Since, the constraints aren't very strict, a solution till $O(N\log{N}$ or $O(M\log{M})$ would pass as well. Although a brute implementation worse than this would give you TLE.
 
