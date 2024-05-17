@@ -1,7 +1,7 @@
 # JPC-II Editorial
 This is the official editorial for AASF JPC-II.
 
-Also, fill this [feeddback form](https://docs.google.com/forms/d/1mXVzhE-fpYPaaFesd5x3FtqLi2xFhu-a5m1hai96Das/edit) form to let me know about your experience at the end of this tutorial. I am eager to hear from you.
+Also, fill this [feedback form](https://forms.gle/g5hBL71arjBGFwQq6) form to let me know about your experience, at the end of this tutorial. I am eager to hear from you.
 
 ### Problem Author and Editorialist: [Ayush Sah](https://www.linkedin.com/in/ay-ew-sh/)
 
@@ -199,3 +199,6 @@ Now, to generate a valid derangement we can take help of a result of our result 
 </details>
 
 [Author's Solution](6.%20ICPC%20Team/author's_solution.cpp)
+
+# Thanks for taking part in this contest!
+[If you wish, you can now go back to filling the feedback form.](https://forms.gle/g5hBL71arjBGFwQq6)
