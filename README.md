@@ -102,7 +102,7 @@ Since, the constraints aren't very strict, a solution till $O(N\log{N}$ or $O(M\
 
 Here is the extended version of the problem to try this method: https://www.thejoboverflow.com/problem/148/
 
-**Time Complexity:** $O(N\log{N}+log(abs(N-M)$
+**Time Complexity:** $O(N\log{N}+log(abs(N-M)))$
 </details>
 <details>
 <summary>Problem Rating (Equivalent to Codeforces)</summary>
@@ -143,6 +143,8 @@ Hence, by contradiction we prove our statement.
 Thus, Baldwin can only win if all elements occur less than $\left\lfloor\frac{N}{2}\right \rfloor$ times. 
 
 Now, to generate a valid derangement we can take help of a result of our result above. If we can have all the same coloured sheaths in a line, then we know that the colour appearing for the most number of times would also require most number of other remaining colours to fill their position. So, if we rotate this sorted sequence by an amount of $\left\lfloor\frac{N}{2}\right \rfloor$, then we can guarantee that no element of maximum occurence is in its original position. Thus as a result of the statement that we proved and this observation, we ensure that we get a valid derangement and none of the elements are in their original position.
+
+**Time Complexity:** $O(N\log{N})$
 </details>
 <details>
 <summary>Problem Rating (Equivalent to Codeforces)</summary>
