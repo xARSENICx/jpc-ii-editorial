@@ -96,9 +96,9 @@ Since, the constraints aren't very strict, a solution till $O(N\log{N}$ or $O(M\
 <details>
 <summary>Tutorial #2</summary>
 
-  This problem can be solved with the help of an ordered set from the [policy based data structure](https://codeforces.com/blog/entry/11080) class which gives all the basic operations that an STL ordered set gives, alongwith two functions `find_by_order()` and `order_of_key()`. Although, using this data structure here would result in a worse time complexity than [author's solution](3.%20Rivendell%20Recovery/author's_solution.cpp), it is still a very powerful data structure. It helps use solve offline query based problems for example, in a very simple way. The code can be found in [author's alternative solution](3.%20Rivendell%20Recovery/author's_alternative_solution.cpp).
+  This problem can be solved with the help of an ordered set from the [policy based data structure](https://codeforces.com/blog/entry/11080) class which gives all the basic operations that an STL ordered set gives, alongwith two extra functions `find_by_order()` and `order_of_key()`. Although, using this data structure here would result in a worse time complexity than [author's solution](3.%20Rivendell%20Recovery/author's_solution.cpp), it is still a very powerful data structure to learn. It helps to solve offline query based problems for example, in a very elegant way. The solution code can be found in [author's alternative solution](3.%20Rivendell%20Recovery/author's_alternative_solution.cpp).
 
-Here is the extended version of the problem to try this: https://www.thejoboverflow.com/problem/148/
+Here is the extended version of the problem to try this method: https://www.thejoboverflow.com/problem/148/
 
 **Time Complexity:** $O(N\log{N}+log(abs(N-M)$
 </details>
@@ -130,7 +130,17 @@ Here is the extended version of the problem to try this: https://www.thejoboverf
 <details>
 <summary>Tutorial</summary>
 
+Derangement can be defined as an arrangement in which no element is in its original position. Thus, it is easy to figure out that in this problem that if we can make a valid derangement of the given sequence, then Baldwin wins. But, doing it in a naive way would be computationally difficult. So, instead of embarking upon the journey to print this derangement let us first figure out if there is a way to determine whether Baldwin can even win or not. Upon inspection of few examples, we can make a key observation that if the count of any element in the sequence is more than $\left\lfloor\frac{N}{2}\right \rfloor$ then it is not possible to generate a derangement. Let's prove it:
+``` 
+PROOF
 
+STATEMENT: If an element occurs more than 'half the size' number of times in an array then the derangement of that array is not possible.
+Let us say that it is possible to make a derangement even if an element's count is more than half of the total input size. So, to generate the derangement we try to pick this number and at every occurrence of it,  we fill the remaining numbers in. But, eventually we run out of remaining numbers as there would always be atleast 1 empty position where nothing but this selected element could only go in. This arrangement is not a valid derangement.
+Hence, by contradiction we prove our statement.
+```
+Thus, Baldwin can only win if all elements occur less than $\left\lfloor\frac{N}{2}\right \rfloor$ times. 
+
+Now, to generate a valid derangement we can take help of a result of our hypothesis above. If we can have all the same coloured sheaths in a line, then we know that the colour appearing for the most number of times would also require most number of other remaining colours to fill their position. So, if we rotate this sorted sequence by an amount of $\left\lfloor\frac{N}{2}\right \rfloor$, then we can guarantee that no element of maximum occurence is in its original position. Thus as a result of the statement that we proved and this observation, we ensure that we get a valid derangement.
 </details>
 <details>
 <summary>Problem Rating (Equivalent to Codeforces)</summary>
