@@ -132,7 +132,7 @@ Here is the extended version of the problem to try this method: https://www.thej
 <details>
 <summary>Tutorial</summary>
 
-Derangement can be defined as an arrangement in which no element is in its original position. Thus, it is easy to figure out that in this problem that if we can make a valid derangement of the given sequence, then Baldwin wins. But, doing it in a naive way would be computationally difficult. So, instead of embarking upon the journey to print this derangement let us first figure out if there is a way to determine whether Baldwin can even win or not. Upon inspection of few examples, we can make a key observation that if the count of any element in the sequence is more than $\left\lfloor\frac{N}{2}\right \rfloor$ then it is not possible to generate a derangement. Let's prove it:
+Derangement can be defined as an arrangement in which no element is in its original position. Thus, it is easy to figure out that in this problem, if we can make a valid derangement of the given sequence, then Baldwin wins. But, doing it in a naive way would be computationally difficult. So, instead of embarking upon the journey to print this derangement let us first figure out if there is a way to determine whether Baldwin can even win or not. Upon inspection of few examples, we can make a key observation that if the count of any element in the sequence is more than $\left\lfloor\frac{N}{2}\right \rfloor$ then it is not possible to generate a derangement. Let's prove it:
 ``` 
 PROOF
 
