@@ -16,11 +16,11 @@ using namespace std;
 #include <ext/pb_ds/tree_policy.hpp>
 using namespace __gnu_pbds;
 mt19937_64 rang(chrono::high_resolution_clock::now().time_since_epoch().count());
-#ifndef ONLINE_JUDGE
-#include <D:/CP/cp-lib/debug.h>
-#else
-#define debug(x...)
-#endif
+// #ifndef ONLINE_JUDGE
+// #include <D:/CP/cp-lib/debug.h>
+// #else
+// #define debug(x...)
+// #endif
 
 // ------------------------------------------------------------------------------------------
 
