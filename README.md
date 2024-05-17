@@ -82,7 +82,7 @@ For this case, it is easy to observe that Kafka has an advantage over Camus when
 <details>
 <summary>Hint</summary>
 
-What if we maintained an array of unoccupied seats and simulated the whole process?
+```What if we maintained an array of unoccupied seats and simulated the whole process?```
 </details>
 <details>
 <summary>Tutorial #1</summary>
@@ -96,9 +96,9 @@ Since, the constraints aren't very strict, a solution till $O(N\log{N}$ or $O(M\
 <details>
 <summary>Tutorial #2</summary>
 
-  This problem can be solved with the help of an ordered set from the [policy based data structure](https://codeforces.com/blog/entry/11080) class which gives all the basic operations that an STL ordered set gives, alongwith two functions `find_by_order()` and `order_of_key()`. Although, using this data structure here would result in a worse time complexity than [author's aolution](3.%20Rivendell%20Recovery/author's_solution.cpp), it is still a very powerful data structure. It helps use solve offline query based problems for example, in a very simple way. The code can be found in [author's alternative aolution](3.%20Rivendell%20Recovery/author's_alternative_solution.cpp).
+  This problem can be solved with the help of an ordered set from the [policy based data structure](https://codeforces.com/blog/entry/11080) class which gives all the basic operations that an STL ordered set gives, alongwith two functions `find_by_order()` and `order_of_key()`. Although, using this data structure here would result in a worse time complexity than [author's solution](3.%20Rivendell%20Recovery/author's_solution.cpp), it is still a very powerful data structure. It helps use solve offline query based problems for example, in a very simple way. The code can be found in [author's alternative solution](3.%20Rivendell%20Recovery/author's_alternative_solution.cpp).
 
-Here is the extended version of the problem to try this: 
+Here is the extended version of the problem to try this: https://www.thejoboverflow.com/problem/148/
 
 **Time Complexity:** $O(N\log{N}+log(abs(N-M)$
 </details>
@@ -124,9 +124,13 @@ Here is the extended version of the problem to try this:
 </details>
 <details>
 <summary>Hint</summary>
+
+```This is a problem of derangement. How is the possibility of a possible derangement related to the count of each element?```
 </details>
 <details>
 <summary>Tutorial</summary>
+
+
 </details>
 <details>
 <summary>Problem Rating (Equivalent to Codeforces)</summary>
