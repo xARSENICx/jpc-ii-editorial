@@ -1,6 +1,8 @@
 # JPC-II Editorial
 This is the official editorial for AASF JPC-II.
 
+Also, fill this [feeddback form](https://docs.google.com/forms/d/1mXVzhE-fpYPaaFesd5x3FtqLi2xFhu-a5m1hai96Das/edit) form to let me know about your experience at the end of this tutorial. I am eager to hear from you.
+
 ### Problem Author and Editorialist: [Ayush Sah](https://www.linkedin.com/in/ay-ew-sh/)
 
 ### Problem Testers: [Pranav Jarande](https://www.linkedin.com/in/pranav-jarande-997a22257/), [Aditya Bharadwaj](https://www.linkedin.com/in/aditya-bharadwaj-134847157/)
