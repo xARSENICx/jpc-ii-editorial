@@ -201,6 +201,7 @@ void solve() {
         si
         return;
     }
+    mx = n / 2; // You can rotate by original max value as well.
     nyet
     vll fin(n);
     vll b(n);
