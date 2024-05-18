@@ -166,9 +166,28 @@ Now, to generate a valid derangement we can take help of our result above. If we
 </details>
 <details>
 <summary>Hint</summary>
+
+You have to find out the total cost incurred on each day without YZY Deluxe and compare anf find out the better one.
 </details>
 <details>
 <summary>Tutorial</summary>
+
+  Since, the constraints over the number of days are very large, its not feasible to iterate over them and calculate the total sum. So, we instead use the coordinate compression technique since we only need the starting and ending days of each album. 
+
+Assume you have an ifinite time length spanning over $[1, \infty)$. Now, for each pair of $(a_i,b_i)$ we can get our non-overlapping segments of time by splitting them over the time length. 
+```
+EXAMPLE
+Say, the days are {1,5} and {4,10} for two albums. The finals time segments would be:
+[1,3] [4,5] [6,10] [11, ∞) where [4,5] is the segment where both the albums are listened to.
+These segments can also be viewed like this:
+[1,4) [4,6) [6,11) [11, ∞)
+```
+So, now to represent these segments we only need to deal with the left end-points of each segment which are either $a_i$ or $b_i+1$ ( $\boxed{b_i+1}$ can be understood as the first day $i^{th}$ album isn't listened to). The reason for this is that only the start or end day of an album listened to matters. Now, on the ${a_i}^{th}$ day, the toal cost would increase by a value of $c_i$ and on the ${b_i}^{th}$ day it will decrease by $c_i$.
+
+After we get the segments, we now need to calculate the cost for **each segment**, and compare it with K, the price of the subscription. Thus, for implementation we can use a map (since we need the time stamps in a sorted manner) to store the change that is happening to the total cost on each critical day, i.e., the left end-points of each and every segment. At the, end we get the final total answer.
+
+**Time Complexity:** $O(N\log{N})$
+
 </details>
 <details>
 <summary>Problem Rating (Equivalent to Codeforces)</summary>
