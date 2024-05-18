@@ -235,7 +235,7 @@ Here is an illustration of the sample testcase:
 ![Screenshot 2024-05-19 033304](https://github.com/xARSENICx/jpc-ii-editorial/assets/75406648/96f34618-4aad-446f-9bb8-f0174a187634)
 
 
-**Time Complexity:** $O\left( \left( 5N+{\left( 2^{5} \right)}^3 \right )log(N) \right)$
+**Time Complexity:** $O\left( \left( 5N+{\left( 2^{5} \right)}^3 \right )log(A) \right)$ where A is the upper limit of binary search.
 </details>
 <details>
 <summary>Problem Rating (Equivalent to Codeforces)</summary>
