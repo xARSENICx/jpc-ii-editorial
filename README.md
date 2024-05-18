@@ -194,7 +194,7 @@ So, now to represent these segments we only need to deal with the left end-point
 
 After we get the segments, we now need to calculate the cost for **each segment**, and compare it with K, the price of the subscription. Thus, for implementation we can use a map (since we need the time stamps in a sorted manner) to store the change that is happening to the total cost on each critical day, i.e., the left end-points of each and every segment. At the, end we get the final total answer.
 
-**Time Complexity:** $O(N\log{N})$
+**Time Complexity:** $O(N\log{A})$ where A is the upper bound of binary search.
 
 </details>
 <details>
