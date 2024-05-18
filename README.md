@@ -37,11 +37,11 @@ Do what the problem says.
   > 800
 </details>
 
-[Author's Solution](1.%20Aparecium/author's_solution.cpp)
+[Author's Solution](1.%20Aparecium/author's_solution.cpp#L191)
 
 [Tester1's Solution](1.%20Aparecium/tester1's_solution.cpp)
 
-[Tester2's Solution]()
+[Tester2's Solution](1.%20Aparecium/tester2's_solution.cpp)
 
 ## 2. One Must Imagine Sisyphus Happy
 <details>
@@ -69,11 +69,11 @@ For this case, it is easy to observe that Kafka has an advantage over Camus when
   > 1000
 </details>
 
-[Author's Solution](2.%20One%20Must%20Imagine%20Sisyphus%20Happy/author's_solution.cpp)
+[Author's Solution](2.%20One%20Must%20Imagine%20Sisyphus%20Happy/author's_solution.cpp#L191)
 
 [Tester1's Solution](2.%20One%20Must%20Imagine%20Sisyphus%20Happy/tester1's_solution.cpp)
 
-[Tester2's Solution]()
+[Tester2's Solution](2.%20One%20Must%20Imagine%20Sisyphus%20Happy/tester2's_solution.cpp)
 
 ## 3. Rivendell Recovery
 <details>
@@ -110,13 +110,13 @@ Here is the extended version of the problem to try this method: https://www.thej
   > 1100
 </details>
 
-[Author's Solution](3.%20Rivendell%20Recovery/author's_solution.cpp)
+[Author's Solution](3.%20Rivendell%20Recovery/author's_solution.cpp#L184)
 
 [Author's Alternative Solution](3.%20Rivendell%20Recovery/author's_alternative_solution.cpp)
 
 [Tester1's Solution](3.%20Rivendell%20Recovery/tester1's_solution.cpp)
 
-[Tester2's Solution]()
+[Tester2's Solution](3.%20Rivendell%20Recovery/tester2's_solution.cpp)
 
 ## 4. Saladin's Sword Swap Conundrum
 <details>
@@ -152,11 +152,11 @@ Now, to generate a valid derangement we can take help of our result above. If we
   > 1400
 </details>
 
-[Author's Solution](4.%20Saladin's%20Sword%20Swap%20Conundrum/author's_solution.cpp)
+[Author's Solution](4.%20Saladin's%20Sword%20Swap%20Conundrum/author's_solution.cpp#L185)
 
 [Tester1's Solution](4.%20Saladin's%20Sword%20Swap%20Conundrum/tester1's_solution.cpp)
 
-[Tester2's Solution]()
+[Tester2's Solution](4.%20Saladin's%20Sword%20Swap%20Conundrum/tester2's_solution.cpp)
 
 ## 5. YZY App Subscription
 <details>
@@ -176,11 +176,11 @@ Now, to generate a valid derangement we can take help of our result above. If we
   > 1500
 </details>
 
-[Author's Solution](5.%20YZY%20App%20Subscription/author's_solution.cpp)
+[Author's Solution](5.%20YZY%20App%20Subscription/author's_solution.cpp#L191)
 
 [Tester1's Solution](5.%20YZY%20App%20Subscription/tester1's_solution.cpp)
 
-[Tester2's Solution]()
+[Tester2's Solution](5.%20YZY%20App%20Subscription/tester2's_solution.cpp)
 
 ## 6. ICPC Team
 <details>
@@ -200,7 +200,7 @@ Now, to generate a valid derangement we can take help of our result above. If we
   > 1700
 </details>
 
-[Author's Solution](6.%20ICPC%20Team/author's_solution.cpp)
+[Author's Solution](6.%20ICPC%20Team/author's_solution.cpp#L191)
 
 # Thanks for taking part in this contest!
 [If you wish, you can now go back to filling the feedback form.](https://forms.gle/g5hBL71arjBGFwQq6)
