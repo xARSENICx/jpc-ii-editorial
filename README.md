@@ -246,4 +246,6 @@ Here is an illustration of the sample testcase:
 [Author's Solution](6.%20ICPC%20Team/author's_solution.cpp#L187)
 
 # Thanks for taking part in this contest!
+Hope you enjoyed giving it and got something new to learn out of it. 
+
 [If you wish, you can now go back to filling the feedback form.](https://forms.gle/g5hBL71arjBGFwQq6)
