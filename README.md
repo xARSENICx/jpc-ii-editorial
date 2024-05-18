@@ -218,7 +218,9 @@ After we get the segments, we now need to calculate the cost for **each segment*
 <details>
 <summary>Hint</summary>
 
-
+```
+How can we represent a yes/no valued tuple in a quick way?
+```
 </details>
 <details>
 <summary>Tutorial</summary>
