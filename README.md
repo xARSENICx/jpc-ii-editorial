@@ -146,7 +146,7 @@ STATEMENT: If an element occurs more than 'half the size' number of times in an 
 Let us say that it is possible to make a derangement even if an element's count is more than half of the total input size. So, to generate the derangement we try to pick this number and at every occurrence of it,  we fill the remaining numbers in. But, eventually we run out of remaining numbers as there would always be atleast 1 empty position where nothing but this selected element could only go in. This arrangement is not a valid derangement.
 Hence, by contradiction we prove our statement.
 ```
-Thus, Baldwin can only win if all elements occur less than $\left\lfloor\frac{N}{2}\right \rfloor$ times. 
+Thus, Baldwin can only win if all elements occur not more than $\left\lfloor\frac{N}{2}\right \rfloor$ times. 
 
 Now, to generate a valid derangement we can take help of our result above. If we can have all the same coloured sheaths in a line, then we know that the colour appearing for the most number of times would also require most number of other remaining colours to fill their position. So, if we rotate this sorted sequence by an amount of $\left\lfloor\frac{N}{2}\right \rfloor$, then we can guarantee that no element of maximum occurence is in its original position. Thus as a result of the statement that we proved and this observation, we ensure that we get a valid derangement and none of the elements are in their original position.
 
@@ -174,7 +174,7 @@ Now, to generate a valid derangement we can take help of our result above. If we
 <summary>Hint</summary>
 
 ```
-You have to find out the total cost incurred on each day without YZY Deluxe and compare anf find out the better one.
+You have to find out the total cost incurred on each day without YZY Deluxe and compare and find out the better one.
 ```
 </details>
 <details>
@@ -223,7 +223,16 @@ After we get the segments, we now need to calculate the cost for **each segment*
 <details>
 <summary>Tutorial</summary>
 
+A naive brute force solution will give TLE as for the worst case, it will be in the order of $5 \times {3000 \choose 3} \approx 2 \times 10^{10}.$ So, we need to think of a better solution. Now, problems of the sort "maximum of minimum of value" or vice-verse can be reduced to a problem where we ask the question "Is there a possible answer more than a value x(say)?" and we get a series of Yes/No answers forming a predicate. Thus, we reduce our problem to a binary search over the answer problem. ([Refer to this blog for an explanation to build the intuition of binary search](https://www.topcoder.com/thrive/articles/Binary+Search#:~:text=%2D7.-,EXAMPLE,-At%20this%20point))
 
+I won't be explaining the working of binary search as it would stretch the tutorial. You can find the dry run in an explained sample below.
+
+The Yes/No question (the checker function) we have to get answer for, in our problem is-  Is the parameter greater than or equal to x (the middle value of binary search)? If it is, we set that bit as 1, otherwise 0 (This is the step of bitmasking). In this way, we need to find the masks for all the $n$ people. Also, since it doesn't matter which 3 people are chosen as long as the efficiency is maximum, we can get rid of the repeated masks. Thus, the maximum unique masks can be $2^5$.  Now, after generating these masks we need to take any 3 and check if the total overlap of all parameters is the complete power set mask or not, i.e.,  all the bits are set or not. This can be done in $2^5\times2^5\times2^5$ ways for the worst case as we got rid of repeated masks.
+
+Here is an illustration on the sample testcase:
+
+
+**Time Complexity:** $O\left( \left( 5N+{\left( 2^{5} \right)}^3 \right )log(N) \right)$
 </details>
 <details>
 <summary>Problem Rating (Equivalent to Codeforces)</summary>
