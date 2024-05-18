@@ -1,5 +1,5 @@
 # JPC-II Editorial
-This is the official editorial for AASF JPC-II.
+This is the official editorial for [AASF JPC-II](https://www.hackerrank.com/junior-programming-contest-ii).
 
 Also, fill this [feedback form](https://forms.gle/g5hBL71arjBGFwQq6) form to let me know about your experience, at the end of this tutorial. I am eager to hear from you.
 
@@ -11,7 +11,7 @@ Also, fill this [feedback form](https://forms.gle/g5hBL71arjBGFwQq6) form to let
 NonTechNerd69, Sohail, Hippie for their valuable feedback! :heart:
 </details>
 
-## 1. Aparecium!
+## 1. [Aparecium!](https://www.hackerrank.com/contests/junior-programming-contest-ii/challenges/aparecium)
 <details>
 <summary>Tag(s)</summary>
 
@@ -43,7 +43,7 @@ Do what the problem says.
 
 [Tester2's Solution](1.%20Aparecium/tester2's_solution.cpp)
 
-## 2. One Must Imagine Sisyphus Happy
+## 2. [One Must Imagine Sisyphus Happy](https://www.hackerrank.com/contests/junior-programming-contest-ii/challenges/kafkacamus)
 <details>
 <summary>Tag(s)</summary>
 
@@ -52,7 +52,9 @@ Do what the problem says.
 <details>
 <summary>Hint</summary>
 
+```
   When does Kafka have advantage over Camus?
+```
 </details>
 <details>
 <summary>Tutorial</summary>
@@ -75,7 +77,7 @@ For this case, it is easy to observe that Kafka has an advantage over Camus when
 
 [Tester2's Solution](2.%20One%20Must%20Imagine%20Sisyphus%20Happy/tester2's_solution.cpp)
 
-## 3. Rivendell Recovery
+## 3. [Rivendell Recovery](https://www.hackerrank.com/contests/junior-programming-contest-ii/challenges/rivendell)
 <details>
 <summary>Tag(s)</summary>
 
@@ -84,7 +86,9 @@ For this case, it is easy to observe that Kafka has an advantage over Camus when
 <details>
 <summary>Hint</summary>
 
-```What if we maintained an array of unoccupied seats and simulated the whole process?```
+```
+What if we maintained an array of unoccupied seats and simulated the whole process?
+```
 </details>
 <details>
 <summary>Tutorial #1</summary>
@@ -118,7 +122,7 @@ Here is the extended version of the problem to try this method: https://www.thej
 
 [Tester2's Solution](3.%20Rivendell%20Recovery/tester2's_solution.cpp)
 
-## 4. Saladin's Sword Swap Conundrum
+## 4. [Saladin's Sword Swap Conundrum](https://www.hackerrank.com/contests/junior-programming-contest-ii/challenges/saladin)
 <details>
 <summary>Tag(s)</summary>
 
@@ -127,7 +131,9 @@ Here is the extended version of the problem to try this method: https://www.thej
 <details>
 <summary>Hint</summary>
 
-```This is a problem of derangement. How is the possibility of a possible derangement related to the count of each element?```
+```
+This is a problem of derangement. How is the possibility of a possible derangement related to the count of each element?
+```
 </details>
 <details>
 <summary>Tutorial</summary>
@@ -158,7 +164,7 @@ Now, to generate a valid derangement we can take help of our result above. If we
 
 [Tester2's Solution](4.%20Saladin's%20Sword%20Swap%20Conundrum/tester2's_solution.cpp)
 
-## 5. YZY App Subscription
+## 5. [YZY App Subscription](https://www.hackerrank.com/contests/junior-programming-contest-ii/challenges/yzyapp)
 <details>
 <summary>Tag(s)</summary>
 
@@ -167,7 +173,9 @@ Now, to generate a valid derangement we can take help of our result above. If we
 <details>
 <summary>Hint</summary>
 
+```
 You have to find out the total cost incurred on each day without YZY Deluxe and compare anf find out the better one.
+```
 </details>
 <details>
 <summary>Tutorial</summary>
@@ -182,7 +190,7 @@ Say, the days are {1,5} and {4,10} for two albums. The finals time segments woul
 These segments can also be viewed like this:
 [1,4) [4,6) [6,11) [11, ∞)
 ```
-So, now to represent these segments we only need to deal with the left end-points of each segment which are either $a_i$ or $b_i+1$ ( $\boxed{b_i+1}$ can be understood as the first day $i^{th}$ album isn't listened to). The reason for this is that only the start or end day of an album listened to matters. Now, on the ${a_i}^{th}$ day, the toal cost would increase by a value of $c_i$ and on the ${b_i}^{th}$ day it will decrease by $c_i$.
+So, now to represent these segments we only need to deal with the left end-points of each segment which are either $a_i$ or $b_i+1$ ( $\boxed{b_i+1}$ can be understood as the first day $i^{th}$ album isn't listened to). The reason for this is that, only the start or end day of an album listened to matters. Now, on the ${a_i}^{th}$ day, the toal cost would increase by a value of $c_i$ and on the ${b_i}^{th}$ day it will decrease by $c_i$.
 
 After we get the segments, we now need to calculate the cost for **each segment**, and compare it with K, the price of the subscription. Thus, for implementation we can use a map (since we need the time stamps in a sorted manner) to store the change that is happening to the total cost on each critical day, i.e., the left end-points of each and every segment. At the, end we get the final total answer.
 
@@ -201,7 +209,7 @@ After we get the segments, we now need to calculate the cost for **each segment*
 
 [Tester2's Solution](5.%20YZY%20App%20Subscription/tester2's_solution.cpp)
 
-## 6. ICPC Team
+## 6. [ICPC Team](https://www.hackerrank.com/contests/junior-programming-contest-ii/challenges/icpcteam)
 <details>
 <summary>Tag(s)</summary>
 
@@ -209,9 +217,13 @@ After we get the segments, we now need to calculate the cost for **each segment*
 </details>
 <details>
 <summary>Hint</summary>
+
+
 </details>
 <details>
 <summary>Tutorial</summary>
+
+
 </details>
 <details>
 <summary>Problem Rating (Equivalent to Codeforces)</summary>
