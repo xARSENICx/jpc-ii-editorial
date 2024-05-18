@@ -243,7 +243,7 @@ Here is an illustration of the sample testcase:
   > 1700
 </details>
 
-[Author's Solution](6.%20ICPC%20Team/author's_solution.cpp#L191)
+[Author's Solution](6.%20ICPC%20Team/author's_solution.cpp#L187)
 
 # Thanks for taking part in this contest!
 [If you wish, you can now go back to filling the feedback form.](https://forms.gle/g5hBL71arjBGFwQq6)
