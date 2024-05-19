@@ -143,7 +143,10 @@ Derangement can be defined as an arrangement in which no element is in its origi
 PROOF
 
 STATEMENT: If an element occurs more than 'half the size' number of times in an array then the derangement of that array is not possible.
-Let us say that it is possible to make a derangement even if an element's count is more than half of the total input size. So, to generate the derangement we try to pick this number and at every occurrence of it,  we fill the remaining numbers in. But, eventually we run out of remaining numbers as there would always be atleast 1 empty position where nothing but this selected element could only go in. This arrangement is not a valid derangement.
+Let us say that it is possible to make a derangement even if an element's count is more than half of the total input size.
+So, to generate the derangement we try to pick this number and at every occurrence of it,  we fill the remaining numbers in.
+But, eventually we run out of remaining numbers as there would always be atleast 1 empty position where nothing but this selected element could only go in.
+This arrangement is not a valid derangement.
 Hence, by contradiction we prove our statement.
 ```
 Thus, Baldwin can only win if all elements occur not more than $\left\lfloor\frac{N}{2}\right \rfloor$ times. 
