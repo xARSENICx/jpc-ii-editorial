@@ -211,8 +211,6 @@ After we get the segments, we now need to calculate the cost for **each segment*
 
 [Tester1's Solution](5.%20YZY%20App%20Subscription/tester1's_solution.cpp)
 
-[Tester2's Solution](5.%20YZY%20App%20Subscription/tester2's_solution.cpp)
-
 ## 6. [ICPC Team](https://www.hackerrank.com/contests/junior-programming-contest-ii/challenges/icpcteam)
 <details>
 <summary>Tag(s)</summary>
