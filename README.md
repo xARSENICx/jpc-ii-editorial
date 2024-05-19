@@ -9,6 +9,7 @@ Also, fill this [feedback form](https://forms.gle/g5hBL71arjBGFwQq6) form to let
 <details>
 <summary>Quick shoutout to the unofficial testers:</summary>
 NonTechNerd69, Sohail, Hippie for their valuable feedback! :heart:
+Also, thanks Pratyush for editing the artwork in the first problem. :heart:
 </details>
 
 ## 1. [Aparecium!](https://www.hackerrank.com/contests/junior-programming-contest-ii/challenges/aparecium)
