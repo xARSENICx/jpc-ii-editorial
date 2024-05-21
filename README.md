@@ -234,7 +234,7 @@ I won't be explaining the working of binary search as it would stretch the tutor
 The Yes/No question (the checker function) we have to get answer for, in our problem is-  Is the parameter greater than or equal to x (the middle value of binary search)? If it is, we set that bit as 1, otherwise 0 (This is the step of bitmasking). In this way, we need to find the masks for all the $n$ people. Since, there are only two option for each attribute we can have only $2^5$ maximum unique masks. Thus, we can get rid of repeated masks and only deal with the unique masks as we just have to maximise our efficiency(and not find out an actual combination of 3 people). Now, after generating these masks we need to take any 3 and check if the total overlap of all parameters is the complete power set mask or not, i.e.,  all the bits are set or not. This can be done in $2^5\times2^5\times2^5$ ways for the worst case as we got rid of repeated masks.
 
 Here is an illustration of the sample testcase:
-![Screenshot 2024-05-19 033304](https://github.com/xARSENICx/jpc-ii-editorial/assets/75406648/96f34618-4aad-446f-9bb8-f0174a187634)
+![image](https://github.com/xARSENICx/jpc-ii-editorial/assets/75406648/b526657a-1369-4ee9-92df-2573866ca819)
 
 
 **Time Complexity:** $O\left( \left( 5N+{\left( 2^{5} \right)}^3 \right )log(A) \right)$ where A is the upper limit of binary search.
